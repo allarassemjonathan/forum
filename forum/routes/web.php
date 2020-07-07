@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('welcome');
 });
 
 
@@ -49,17 +49,6 @@ Route::get('/editer', function () {
 });
 
 
-
-Route::get('/view_salons_jeux', function () {
-    return view('view_salons_jeux');
-});
-
-
-
-Route::get('/view_salons_discussions', function () {
-    return view('view_salons_discussions');
-});
-
 Route::get('/salon', function () {
     return view('salon');
 });
@@ -75,4 +64,8 @@ Route::get('/salon_discussion', function () {
 
 Route::get('/salon_jeux', function () {
     return view('salon_jeux');
+});
+
+Route::get('/mes_salons', function () {
+    return view('msalons');
 });
