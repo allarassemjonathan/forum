@@ -1,0 +1,24 @@
+li.a{
+display:inline;
+margin-left:35px;
+padding-bottom:17px;
+
+
+}
+
+li.a:hover{
+    background-color: white;
+    color:orange;
+    border-radius: 5px;
+    
+}
+
+.b{
+
+background-image:url("../css/blacksky1.jpeg");
+ background-position: center;
+ background-size:70%;
+ background-repeat:no-repeat;
+
+ 
+}

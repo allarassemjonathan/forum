@@ -1,0 +1,67 @@
+
+ body
+{
+	background-image: url("jeedTEST.jpg");
+	background-size: cover;
+	background-repeat:no-repeat;
+	font: arial,sans-serif;
+	font-family: "Verdana";
+
+}h3{
+	color:white;
+	transition-property:margin-left;
+	transition-duration: 200ms;
+	transition-delay: 150ms;
+
+}
+
+section
+{
+	width: 18%;
+	border-radius: 10px;
+	margin-left:40%;
+	margin-top: 17%;
+	box-shadow: black 0px 0px 15px 5px;
+    transition-property: padding-top;
+    transition-duration: 200ms;
+    transition-delay: 150ms;
+
+}
+section:hover{
+    padding-top:12px ;	
+}
+ input
+ {
+ 	border-radius: 30px;
+ 	text-align: center;
+ 	margin-bottom: 20%; 
+ 	border: hidden;
+ 	padding:5px;
+ 	transition-property: margin-left;
+ 	transition-duration: 100ms;
+ 	transition-delay: 100ms;
+ 
+ }
+ input:hover{
+ 	margin-left: 6px;
+ 	background-color:lightgrey;
+ }
+ 
+ #submit
+ {
+ 	width: 100px;
+ 	height: 30px;
+ 	font-size: 15px;
+	color: purple;
+	margin-bottom: 6%;
+ }
+
+#submit:hover
+{
+	background-color:purple;
+	color:white;
+}
+
+
+
+

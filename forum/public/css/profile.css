@@ -1,0 +1,37 @@
+input{
+
+ margin:10px 10px;
+ border-radius:10px;
+ background-color:white;
+ color:blue;
+ border:hidden;
+
+
+}
+
+input:hover{
+ background-color:skyblue;
+ color:blue;
+ transition-duration: 300ms;
+ 
+
+}
+
+div.z{
+    border-radius:20px;
+
+    width:70%;
+    margin-left:15%;
+    padding-top:15px;
+    padding-bottom:15px;
+    
+}
+
+div.z:hover{
+    background-color:rgb(231, 230, 230); 
+    transition-duration: 500ms;
+}
+
+h4{
+  padding-top:10px;
+}
