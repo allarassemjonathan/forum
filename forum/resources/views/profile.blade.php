@@ -8,92 +8,84 @@
 <?php
 use Faker\Factory as Faker;
 
+$departements=['Jeunesse','Enseignement','Famille','Trésorerie'];
+$salonsds=['Chretien,sels et lumière du monde','Comment produire du fruit?','Jésus-Christ Fils de DIeu','Résister à la tentation!'];
+$salonsjx=['quizz biblique'];
 $faker=Faker::create();
 $fn=$faker->firstname;
 $ln=$faker->lastname;
-        
-echo"Prenom:$fn <br> <br>
-Nom: $ln <br> <br>
-email: $fn.$ln@gmail.com <br> <br>
-Numero: $faker->phoneNumber <br> <br>
-Addresse:$faker->streetAddress<br><br>
-"
 ?>
+
+Prenom:{{$fn}} <br> <br>
+Nom: {{$ln}} <br> <br>
+email: {{$fn}}.{{$ln}}@gmail.com <br> <br>
+Numero: {{$faker->phoneNumber}} <br> <br>
+Addresse:{{$faker->streetAddress}}<br><br>
+
+
 <input type="submit" value="modifier les informations publiques">
 
 </div>
 <br>
 
+
+
+
 <h4 align="center">Derniers  départements rejoins</h4>
 <div  class="z" align="center" >
 <table>
 <tr>
-<?php
-$departements=['Jeunesse','Enseignement','Famille','Trésorerie'];
 
-foreach($departements as $departement){
-    echo"<td>";
-    echo"$departement"; 
-    echo" &nbsp &nbsp &nbsp";
-    echo"</td>";
+@foreach($departements as $departement)
     
-}
-
-?>
-
+    <tr> <br>
+    {{ $departement }}
+    </tr>
+@endforeach
 
 </tr>
 </table>
-
 <input type="submit" value="voire tous mes départements">
-
 </div>
 
-
 <br>
+
+
+
+
 <h4 align="center">Derniers salons de discussion rejoins</h4>
 <div class="z" align="center" >
 <table>
 <tr>
 
-<?php
-$salonsds=['Chretien,sels et lumière du monde','Comment produire du fruit?','Jésus-Christ Fils de DIeu','Résister à la tentation!'];
+@foreach($salonsds as $salond)
 
-foreach($salonsds as $salond){
-
-    echo"$salond"; 
-    echo"<br>";
+    {{$salond}}
+    <br>
     
-}
-
-?>
-
+@endforeach
 
 </tr>
 </table>
 
 <input type="submit" value="voire tous mes salons de discussion">
-
 </div>
 
 
 <br>
+
+
+
 <h4 align="center">Derniers salons de jeux rejoins</h4>
 <div class="z" align="center" >
 <table>
 <tr>
 
-<?php
-$salonsjx=['quizz biblique'];
+@foreach($salonsjx as $salonj)
 
-foreach($salonsjx as $salonj){
-
-    echo"$salonj"; 
-    echo"<br>";
-    
-}
-
-?>
+    {{$salonj}}
+    <br>
+@endforeach
 
 
 </tr>
@@ -102,7 +94,6 @@ foreach($salonsjx as $salonj){
 <input type="submit" value="voire tous mes salons de jeux">
 
 </div>
-
 
 
 @endsection

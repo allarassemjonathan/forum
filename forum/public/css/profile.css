@@ -1,17 +1,20 @@
 input{
 
  margin:10px 10px;
- border-radius:10px;
+ border-radius:5px;
  background-color:white;
- color:blue;
+ color:rgb(77, 77, 255);
  border:hidden;
+ width:30%;
+ padding-top:5px;
+padding-bottom:5px;
 
 
 }
 
 input:hover{
- background-color:skyblue;
- color:blue;
+ background-color:rgb(77, 77, 255);
+ color:white;
  transition-duration: 300ms;
  
 
