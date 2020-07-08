@@ -1,7 +1,5 @@
 @extends('layouts.base_profile')
-@section('bar')
-  @parent 
-@endsection
+
 @section('navprofile')
     @parent
     <!-- Container -->

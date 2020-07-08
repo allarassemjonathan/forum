@@ -19,25 +19,48 @@ Route::get('/', function () {
 
 
 
-Route::get('/home', function () {
-    return view('home');
-});
-
-
 
 Route::get('/login', function () {
     return view('login');
 });
 
+Route::get('/salons', function () {
+    return view('salons');
+});
 
+         Route::get('/salon_discussion', function () {
+        return view('salon_discussion');
+        });
 
+        Route::get('/salon_jeux', function () {
+        return view('salon_jeux');
+        });
+ 
+
+Route::get('/departements', function () {
+    return view('departements');
+});
+
+Route::get('/home', function () {
+    return view('home');
+});
 
 Route::get('/profile', function () {
     return view('profile');
 });
 
+Route::get('/annonces', function () {
+    return view('annonces');
+});
 
 
+
+
+
+
+Route::get('/mes_departements', function () {
+    return view('mdepartements');
+});
 
 Route::get('/parametres', function () {
     return view('parametres');
@@ -49,23 +72,22 @@ Route::get('/editer', function () {
 });
 
 
-Route::get('/salon', function () {
-    return view('salon');
+Route::get('/mes_salons', function () {
+    return view('msalons');
 });
+
+
 
 Route::get('/mes_salons', function () {
     return view('msalons');
 });
 
-Route::get('/salon_discussion', function () {
-    return view('salon_discussion');
+
+
+Route::get('/mon_role', function () {
+    return view('role');
 });
 
 
-Route::get('/salon_jeux', function () {
-    return view('salon_jeux');
-});
 
-Route::get('/mes_salons', function () {
-    return view('msalons');
-});
+

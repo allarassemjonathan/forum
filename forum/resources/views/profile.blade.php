@@ -1,9 +1,4 @@
 @extends('layouts.base_profile')
-@section('bar')
-
-  @parent 
-@endsection
-
 @section('navprofile')
     @parent
 
@@ -107,6 +102,7 @@ foreach($salonsjx as $salonj){
 <input type="submit" value="voire tous mes salons de jeux">
 
 </div>
+
 
 
 @endsection
