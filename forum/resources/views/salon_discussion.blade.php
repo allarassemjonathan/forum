@@ -8,7 +8,6 @@
       @parent
   @show  
 
-
 </head>
 <body class="hold-transition layout-top-nav">
 @section('navmenu')
@@ -18,17 +17,17 @@
   <!-- /.navbar -->
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
-        <!-- Content Header (Page header) -->
+      <!-- Content Header (Page header) -->
         <section class="content-header">
           <div class="container-fluid">
             <div class="row mb-2">
               <div class="col-sm-6">
-                <h1>Timeline</h1>
+                <h1>Salon de la jeunesse</h1>
               </div>
               <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-right">
-                  <li class="breadcrumb-item"><a href="#">Home</a></li>
-                  <li class="breadcrumb-item active">Timeline</li>
+                  <li class="breadcrumb-item"><a href="{{ url('salon') }}">Salons</a></li>
+                  <li class="breadcrumb-item active">Musique et Jeunesse</li>
                 </ol>
               </div>
             </div>
@@ -38,7 +37,19 @@
         <!-- Main content -->
         <section class="content">
           <div class="container-fluid">
-            
+                  <!-- HEADER -->
+
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Philippe Keita</h5>
+
+            <p class="card-text">
+              <h2>Music et Jeunesse</h1> Que dire sur la musique et la jeunesse. Particulierement la musique du monde ...
+            </p>
+          </div>
+        </div>
+
+      <!-- /.col -->  
             <!-- Timelime example  -->
             <div class="row">
               <div class="col-md-12">
@@ -51,7 +62,7 @@
                   <!-- /.timeline-label -->
                   <!-- timeline item -->
                   <div>
-                    <i class="fas fa-envelope bg-blue"></i>
+                    <i class="fas fa-user bg-red"></i>
                     <div class="timeline-item">
                       <span class="time"><i class="fas fa-clock"></i> 12:05</span>
                       <h3 class="timeline-header"><a href="#">Support Team</a> sent you an email</h3>
@@ -63,8 +74,7 @@
                         quora plaxo ideeli hulu weebly balihoo...
                       </div>
                       <div class="timeline-footer">
-                        <a class="btn btn-primary btn-sm">Read more</a>
-                        <a class="btn btn-danger btn-sm">Delete</a>
+                        <a class="btn btn-primary btn-sm">like <i class="fa fa-thumbs-up" aria-hidden="true"></i></a>
                       </div>
                     </div>
                   </div>
@@ -80,7 +90,7 @@
                   <!-- END timeline item -->
                   <!-- timeline item -->
                   <div>
-                    <i class="fas fa-comments bg-yellow"></i>
+                    <i class="fas fa-user bg-yellow"></i>
                     <div class="timeline-item">
                       <span class="time"><i class="fas fa-clock"></i> 27 mins ago</span>
                       <h3 class="timeline-header"><a href="#">Jay White</a> commented on your post</h3>
@@ -102,7 +112,7 @@
                   <!-- /.timeline-label -->
                   <!-- timeline item -->
                   <div>
-                    <i class="fa fa-camera bg-purple"></i>
+                    <i class="fas fa-user bg-green"></i>
                     <div class="timeline-item">
                       <span class="time"><i class="fas fa-clock"></i> 2 days ago</span>
                       <h3 class="timeline-header"><a href="#">Mina Lee</a> uploaded new photos</h3>
@@ -118,7 +128,7 @@
                   <!-- END timeline item -->
                   <!-- timeline item -->
                   <div>
-                    <i class="fas fa-video bg-maroon"></i>
+                    <i class="fas fa-user bg-purple"></i>
     
                     <div class="timeline-item">
                       <span class="time"><i class="fas fa-clock"></i> 5 days ago</span>

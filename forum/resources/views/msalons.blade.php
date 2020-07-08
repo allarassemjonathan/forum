@@ -69,7 +69,7 @@
           <!-- START PROGRESS BARS -->
           <div class="row">
             <div class="col-md-6">
-              <div class="card">
+              <div class="card table_jeux">
                 <div class="card-header">
                   <a href="{{ url('salon_jeux') }}"><h3 class="card-title">Salles de jeux</h3></a>
                   <div class="card-tools">
