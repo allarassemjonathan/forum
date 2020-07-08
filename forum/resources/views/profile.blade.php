@@ -24,7 +24,7 @@ Addresse:$faker->streetAddress<br><br>
 </div>
 <br>
 
-<h4 align="center"> <a  style="color:black"href="" >Derniers  départements rejoins</a></h4>
+<h4 align="center">Derniers  départements rejoins</h4>
 <div  class="z" align="center" >
 <table>
 <tr>
@@ -51,7 +51,7 @@ foreach($departements as $departement){
 
 
 <br>
-<h4 align="center"> <a  style="color:black"href="" >Derniers salons de discussion rejoins  </a></h4>
+<h4 align="center">Derniers salons de discussion rejoins</h4>
 <div class="z" align="center" >
 <table>
 <tr>
@@ -78,7 +78,7 @@ foreach($salonsds as $salond){
 
 
 <br>
-<h4 align="center"> <a  style="color:black"href="" >Derniers salons de jeux rejoins  </a></h4>
+<h4 align="center">Derniers salons de jeux rejoins</h4>
 <div class="z" align="center" >
 <table>
 <tr>

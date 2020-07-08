@@ -16,7 +16,8 @@
   <link rel="stylesheet" href="css/list.css">
   <link rel="stylesheet" href="css/profile.css">
   <link rel="stylesheet" href="css/salon.css">
-
+  <link rel="stylesheet" href="css/role.css" >
+  
 @show
 
 <body class="hold-transition layout-top-nav">
@@ -124,8 +125,7 @@
 <a href = "{{ url('mon_role') }}">
 <b style="color:#FF8C00">Mon rôle</b></a>
 </li >    
-
-
+<br>
 </div>
 </div>
 

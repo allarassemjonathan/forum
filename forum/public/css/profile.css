@@ -27,11 +27,14 @@ div.z{
     
 }
 
-div.z:hover{
-    background-color:rgb(231, 230, 230); 
-    transition-duration: 500ms;
-}
-
 h4{
   padding-top:10px;
+  color:white;
+  background-color:rgb(255, 115, 0);
+  border-radius:5px;
+  width:70%;
+  margin-left:15%;
+  padding-top:15px;
+  padding-bottom:15px;
+  
 }
