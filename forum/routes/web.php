@@ -17,110 +17,116 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
+        
+Route::get('/home', function () {
+    return view('home');
+});
 
 
 Route::get('/login', function () {
     return view('login');
 });
 
+
+
+// toutes les vues liées aux salons
+// se trouve dans le dossier salon
 Route::get('/salons', function () {
-    return view('salons');
+    return view('salons/salons');
 });
 
-         Route::get('/salon_discussion', function () {
-        return view('salon_discussion');
+         Route::get('salons/salon_discussion', function () {
+        return view('salons/salon_discussion');
         });
 
-        Route::get('/salon_jeux', function () {
-        return view('salon_jeux');
+
+        Route::get('salons/salon_jeux', function () {
+        return view('salons/salon_jeux');
         });
  
 
+        Route::get('/annonces', function () {
+            return view('annonces');
+        });
+
+
+
+//Toutes les vues liées aux departements
+// dans le dossie views/departements
 Route::get('/departements', function () {
-    return view('departements');
+    return view('departements/departements');
 });
 
-Route::get('/home', function () {
-    return view('home');
-});
+        Route::get('departements/jeunesse', function () {
+            return view('departements/jeunesse');
+        });
 
+
+        Route::get('departements/famille', function () {
+            return view('departements/famille');
+        });
+
+
+        Route::get('departements/prière', function () {
+            return view('departements/priere');
+        });
+
+
+        Route::get('departements/hymnologie', function () {
+            return view('departements/hymnologie');
+        });
+
+
+        Route::get('departements/mission', function () {
+            return view('departements/mission');
+        });
+
+
+        Route::get('departements/trésorerie', function () {
+            return view('departements/tresorerie');
+        });
+
+
+        Route::get('departements/sport', function () {
+            return view('departements/sport');
+        });
+
+
+
+// toutes les vues liées au profile
+//elles sont dans le dossier views/profile
 Route::get('/profile', function () {
-    return view('profile');
+    return view('/profile/profile');
 });
-
-Route::get('/annonces', function () {
-    return view('annonces');
-});
-
-
-Route::get('/Jeunesse', function () {
-    return view('jeunesse');
-});
+        
+        Route::get('/profile/mes_departements', function () {
+            return view('/profile/mdepartements');
+        });
 
 
-Route::get('/Famille', function () {
-    return view('famille');
-});
+        Route::get('/profile//parametres', function () {
+            return view('profile/parametres');
+        });
 
 
-Route::get('/Prière', function () {
-    return view('priere');
-});
+        Route::get('/profile/editer', function () {
+            return view('profile/editer');
+        });
 
 
-Route::get('/Hymnologie', function () {
-    return view('hymnologie');
-});
+        Route::get('/profile/mes_salons', function () {
+            return view('profile/msalons');
+        });
 
 
-Route::get('/Mission', function () {
-    return view('mission');
-});
+        Route::get('/profile/mes_salons', function () {
+            return view('profile/msalons');
+        });
 
 
-Route::get('/Trésorerie', function () {
-    return view('tresorerie');
-});
-
-
-Route::get('/Sport', function () {
-    return view('sport');
-});
-
-
-
-
-
-Route::get('/mes_departements', function () {
-    return view('mdepartements');
-});
-
-Route::get('/parametres', function () {
-    return view('parametres');
-});
-
-
-Route::get('/editer', function () {
-    return view('editer');
-});
-
-
-Route::get('/mes_salons', function () {
-    return view('msalons');
-});
-
-
-
-Route::get('/mes_salons', function () {
-    return view('msalons');
-});
-
-
-
-Route::get('/mon_role', function () {
-    return view('role');
-});
+        Route::get('/profile//mon_role', function () {
+            return view('profile/role');
+        });
 
 
 
