@@ -23,7 +23,7 @@ $departements=['Jeunesse','Sport','Famille','Prière','Hymnologie','Mission','Tr
      <h4 align="center">{{$departement}}</h4>
      
      <p align="center">Petite description du département {{$departement}}:<br><?php echo"$faker->text";?></p>
-     <a href="{{url($departement)}}"><h5 align="center">En savoir plus</h5></a>
+     <a href="{{url('departements/'.$departement)}}"><h5 align="center">En savoir plus</h5></a>
      <br><br>
 @endforeach
 </div>
