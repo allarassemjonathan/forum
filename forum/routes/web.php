@@ -54,6 +54,40 @@ Route::get('/annonces', function () {
 });
 
 
+Route::get('/Jeunesse', function () {
+    return view('jeunesse');
+});
+
+
+Route::get('/Famille', function () {
+    return view('famille');
+});
+
+
+Route::get('/Prière', function () {
+    return view('priere');
+});
+
+
+Route::get('/Hymnologie', function () {
+    return view('hymnologie');
+});
+
+
+Route::get('/Mission', function () {
+    return view('mission');
+});
+
+
+Route::get('/Trésorerie', function () {
+    return view('tresorerie');
+});
+
+
+Route::get('/Sport', function () {
+    return view('sport');
+});
+
 
 
 
