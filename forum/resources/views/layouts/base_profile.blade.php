@@ -93,36 +93,36 @@
 
 <div class="text-center"> 
 <li class="a">
-<a href = "{{ url('mes_departements') }}">
+<a href = "{{ url('profile/mes_departements') }}">
 <b style="color:#FF8C00">Mes départements</b></a>
 </li >
 
 
   <li class="a" >
-<a href = "{{ url('mes_salons') }}">
+<a href = "{{ url('profile/mes_salons') }}">
 <b style="color:#FF8C00">Mes Salons </b></a>
 </li >    
   
 <li class="a" >
-<a href = "{{ url('profile') }}">
+<a href = "{{ url('profile/profile') }}">
 <b style="color:#FF8C00">Accueil</b></a>
 </li > 
 
 
   <li class="a" >
-<a href = "{{ url('editer') }}">
+<a href = "{{ url('profile/editer') }}">
 <b style="color:#FF8C00">modifer</b></a>
 </li >    
   
 
   <li class="a" >
-<a href = "{{ url('parametres') }}">
+<a href = "{{ url('profile/parametres') }}">
 <b style="color:#FF8C00">Mes parametres</b></a>
 </li >    
   
 
   <li  class="a">
-<a href = "{{ url('mon_role') }}">
+<a href = "{{ url('profile/s') }}">
 <b style="color:#FF8C00">Mon rôle</b></a>
 </li >    
 <br>

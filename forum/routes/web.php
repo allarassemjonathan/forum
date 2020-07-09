@@ -104,7 +104,7 @@ Route::get('/profile', function () {
         });
 
 
-        Route::get('/profile//parametres', function () {
+        Route::get('/profile/parametres', function () {
             return view('profile/parametres');
         });
 
@@ -119,12 +119,8 @@ Route::get('/profile', function () {
         });
 
 
-        Route::get('/profile/mes_salons', function () {
-            return view('profile/msalons');
-        });
 
-
-        Route::get('/profile//mon_role', function () {
+        Route::get('/profile/mon_role', function () {
             return view('profile/role');
         });
 
