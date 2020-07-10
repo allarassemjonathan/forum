@@ -87,45 +87,47 @@
                   src="../css/IMG_0142.jpg"
                        alt="User profile picture">
                        <h3 class=" text-center" style="color:orange"></h3></div>
+       
 
 
 
-
-<div class="text-center"> 
+<div class="text-center">
+<div class="c">
 <li class="a">
 <a href = "{{ url('profile/mes_departements') }}">
-<b style="color:#FF8C00">Mes départements</b></a>
+<b style="color:white">Mes départements</b></a>
 </li >
 
 
   <li class="a" >
 <a href = "{{ url('profile/mes_salons') }}">
-<b style="color:#FF8C00">Mes Salons </b></a>
+<b style="color:white">Mes Salons </b></a>
 </li >    
   
 <li class="a" >
 <a href = "{{ url('profile') }}">
-<b style="color:#FF8C00">Accueil</b></a>
+<b style="color:white">Accueil</b></a>
 </li > 
 
 
   <li class="a" >
 <a href = "{{ url('profile/editer') }}">
-<b style="color:#FF8C00">modifer</b></a>
+<b style="color:white">modifer</b></a>
 </li >    
   
 
   <li class="a" >
 <a href = "{{ url('profile/parametres') }}">
-<b style="color:#FF8C00">Mes parametres</b></a>
+<b style="color:white">Mes parametres</b></a>
 </li >    
   
 
   <li  class="a">
 <a href = "{{ url('profile/mon_role') }}">
-<b style="color:#FF8C00">Mon rôle</b></a>
+<b style="color:white">Mon rôle</b></a>
 </li >    
 <br>
+</div>
 </div>
 </div>
 

@@ -1,14 +1,13 @@
 li.a{
 display:inline;
 margin-left:35px;
-padding-bottom:17px;
+
 
 
 }
 
 li.a:hover{
-    background-color: white;
-    color:orange;
+    opacity:.75;  
     border-radius: 5px;
     
 }
