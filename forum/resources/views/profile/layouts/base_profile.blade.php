@@ -3,20 +3,20 @@
 
 	<title>Profil</title>
 	<!-- Font Awesome Icons -->
-  	<link rel="stylesheet" href="../css/plugins/fontawesome-free/css/all.min.css">
+  	<link rel="stylesheet" href="css/plugins/fontawesome-free/css/all.min.css">
   	<!-- overlayScrollbars -->
-  	<link rel="stylesheet" href="../css/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  	<link rel="stylesheet" href="css/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
   	<!-- Theme style -->
-  	<link rel="stylesheet" href="../css/dist/css/adminlte.min.css">
+  	<link rel="stylesheet" href="css/dist/css/adminlte.min.css">
   	<!-- Google Font: Source Sans Pro -->
   	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
     <!-- Ionicons -->
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
  
-  <link rel="stylesheet" href="../css/list.css">
-  <link rel="stylesheet" href="../css/profile.css">
-  <link rel="stylesheet" href="../css/salon.css">
-  <link rel="stylesheet" href="../css/role.css" >
+  <link rel="stylesheet" href="css/list.css">
+  <link rel="stylesheet" href="css/profile.css">
+  <link rel="stylesheet" href="css/salon.css">
+  <link rel="stylesheet" href="css/role.css" >
   
 @show
 
@@ -84,7 +84,7 @@
        <div class="widget-user-image">
             <img class=" img-circle text-center mt-5" " 
                   style="margin-left:45%; width:10%;"
-                  src="../css/IMG_0142.jpg"
+                  src="css/IMG_0142.jpg"
                        alt="User profile picture">
                        <h3 class=" text-center" style="color:orange"></h3></div>
 
@@ -132,13 +132,13 @@
 
  <!-- REQUIRED SCRIPTS -->
 <!-- jQuery -->
-<script src="../css/plugins/jquery/jquery.min.js"></script>
+<script src="css/plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap 4 -->
-<script src="../css/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="css/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- AdminLTE App -->
-<script src="../css/dist/js/adminlte.min.js"></script>
+<script src="css/dist/js/adminlte.min.js"></script>
 <!-- AdminLTE for demo purposes -->
-<script src="../css/dist/js/demo.js"></script>
+<script src="css/dist/js/demo.js"></script>
 
 @show
 

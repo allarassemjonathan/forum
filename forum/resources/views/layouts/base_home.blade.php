@@ -53,7 +53,7 @@
         </li>
 
         <li class="nav-item">
-          <a href="#" class="nav-link">Annonces</a>
+          <a href="{{url('annonces')}}" class="nav-link">Annonces</a>
         </li>
       </ul>
         <!-- SEARCH FORM -->
