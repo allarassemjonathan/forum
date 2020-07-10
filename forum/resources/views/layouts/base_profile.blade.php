@@ -110,6 +110,7 @@
 </li > 
 
 
+
   <li class="a" >
 <a href = "{{ url('profile/parametres') }}">
 <b style="color:white">Mes parametres</b></a>
