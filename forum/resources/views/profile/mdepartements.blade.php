@@ -6,7 +6,7 @@
 <?php
 
 use Faker\Factory as Faker;
-$departements=['Jeunesse','Famille','Enseignement','Sport'];
+$departements=['Jeunesse','Famille','Enseignement','Sport','Prière','Hymnologie','Trésorerie','Mission'];
 $faker=Faker::create();
 
 
@@ -17,7 +17,7 @@ $faker=Faker::create();
 
     <h4 align="center">{{ $departement }}</h4>
     <p align="center" style="padding:20px"><?php echo" $faker->text"; ?></p>
-    <div  class="za"align="center" ><a  href="{{ url('<?php echo"$departement";?>')}}">
+    <div  class="za"align="center" ><a href="{{url('departements/'.$departement)}}">
     Département&nbsp{{ $departement }}</a>
     <br>
     </div>

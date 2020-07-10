@@ -111,12 +111,6 @@
 
 
   <li class="a" >
-<a href = "{{ url('profile/editer') }}">
-<b style="color:white">modifer</b></a>
-</li >    
-  
-
-  <li class="a" >
 <a href = "{{ url('profile/parametres') }}">
 <b style="color:white">Mes parametres</b></a>
 </li >    

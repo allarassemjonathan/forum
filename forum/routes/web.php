@@ -57,37 +57,37 @@ Route::get('/departements', function () {
     return view('departements/departements');
 });
 
-        Route::get('departements/jeunesse', function () {
+        Route::get('departements/Jeunesse', function () {
             return view('departements/jeunesse');
         });
 
 
-        Route::get('departements/famille', function () {
+        Route::get('departements/Famille', function () {
             return view('departements/famille');
         });
 
 
-        Route::get('departements/prière', function () {
+        Route::get('departements/Prière', function () {
             return view('departements/priere');
         });
 
 
-        Route::get('departements/hymnologie', function () {
+        Route::get('departements/Hymnologie', function () {
             return view('departements/hymnologie');
         });
 
 
-        Route::get('departements/mission', function () {
+        Route::get('departements/Mission', function () {
             return view('departements/mission');
         });
 
 
-        Route::get('departements/trésorerie', function () {
+        Route::get('departements/Trésorerie', function () {
             return view('departements/tresorerie');
         });
 
 
-        Route::get('departements/sport', function () {
+        Route::get('departements/Sport', function () {
             return view('departements/sport');
         });
 
@@ -106,11 +106,6 @@ Route::get('/profile', function () {
 
         Route::get('/profile/parametres', function () {
             return view('profile/parametres');
-        });
-
-
-        Route::get('/profile/editer', function () {
-            return view('profile/editer');
         });
 
 
