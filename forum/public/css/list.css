@@ -19,5 +19,11 @@ background-image:url("../css/black.jpeg");
  background-size:70%;
  background-repeat:no-repeat;
 
+
  
+}
+
+b.backphoto{
+    margin-left:30%;
+    color:white;
 }

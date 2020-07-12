@@ -81,12 +81,17 @@
 
  
        <div class="b" style="padding-top:10px" >
+       <table><tr>
        <div class="widget-user-image">
-            <img class=" img-circle text-center mt-5" " 
-                  style="margin-left:45%; width:10%;"
+           
+            <img class=" img-circle text-center mt-5" 
+                  style="margin-left:20%;width:10%;"
                   src="../css/IMG_0142.jpg"
-                       alt="User profile picture">
-                       <h3 class=" text-center" style="color:orange"></h3></div>
+                  alt="User profile picture"></tr>
+            <r>
+      <h3 class=" text-center" style="color:orange"></h3></div>
+</tr>
+    </table>
        
 
 

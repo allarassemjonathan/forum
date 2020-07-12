@@ -18,7 +18,8 @@
     <!-- Ionicons -->
     <link rel="stylesheet" href="css/profile.css">
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-@show
+    <link rel="stylesheet" href="css/list.css">
+      @show
 </head>
 <body class="hold-transition layout-top-nav">
 
@@ -71,6 +72,42 @@
 
     </div>
   </nav>
+
+
+  <div class="text-center">
+<div class="d">
+<li class="a">
+<a href = "{{ url('profile/mes_departements') }}">
+<b style="color:white">Mes départements</b></a>
+</li >
+
+
+  <li class="a" >
+<a href = "{{ url('profile/mes_salons') }}">
+<b style="color:white">Mes Salons </b></a>
+</li >    
+  
+<li class="a" >
+<a href = "{{ url('profile') }}">
+<b style="color:white">Accueil</b></a>
+</li > 
+
+
+
+  <li class="a" >
+<a href = "{{ url('profile/parametres') }}">
+<b style="color:white">Mes parametres</b></a>
+</li >    
+  
+
+  <li  class="a">
+<a href = "{{ url('profile/mon_role') }}">
+<b style="color:white">Mon rôle</b></a>
+</li >    
+<br>
+</div>
+</div>
+
   @show
 
 

@@ -22,7 +22,7 @@ $height=100;
 <div >
 @foreach ($departements as $departement)
      <h4 align="center">{{$departement}}</h4>
-     <img src="<?php echo" $faker->imageUrl($width, $height)";?>" alt="{{$departement}}">
+     
      <p align="center">Petite description du département {{$departement}}:<br><?php echo"$faker->text";?></p>
      <a href="{{url('departements/'.$departement)}}"><h5 align="center">En savoir plus</h5></a>
      <br><br>
