@@ -81,17 +81,27 @@
 
  
        <div class="b" style="padding-top:10px" >
-       <table><tr>
-       <div class="widget-user-image">
-           
+       <table style="display:inline;">
+       <tr class="widget-user-image">
+        
             <img class=" img-circle text-center mt-5" 
-                  style="margin-left:20%;width:10%;"
+                  style="margin-left:45%;width:10%;padding:10px"
                   src="../css/IMG_0142.jpg"
-                  alt="User profile picture"></tr>
-            <r>
-      <h3 class=" text-center" style="color:orange"></h3></div>
+                  alt="User profile picture">
 </tr>
-    </table>
+
+<tr>
+      <h6 class=" text-center" style="color:black;font-style:light">
+      <div class="temoignage" align="center">
+      <b style="padding-top:20px;" class="text-center"><br>Daniel 12:2-3</b>
+      <br>
+      <input  class="z" type="submit" value="témoignage">
+      </h6>
+</div>
+      </div>
+
+</tr>
+</table>
        
 
 

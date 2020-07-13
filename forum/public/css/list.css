@@ -1,3 +1,6 @@
+body{
+    font-style:light;
+}
 li.a{
 display:inline;
 margin-left:35px;
@@ -14,7 +17,7 @@ li.a:hover{
 
 .b{
 
-background-image:url("../css/black.jpeg");
+background-image:url("../css/voiture1.png");
  background-position: center;
  background-size:70%;
  background-repeat:no-repeat;
@@ -26,4 +29,28 @@ background-image:url("../css/black.jpeg");
 b.backphoto{
     margin-left:30%;
     color:white;
+}
+
+.z{
+    
+    width:30%;
+    text-align:center;
+}
+
+
+div.temoignage{
+    background-color:white;
+    opacity:0.5;
+    width:40%;
+   margin-left:30%;
+   border-radius:10px;
+       
+}
+
+
+
+
+
+div.temoignage:hover{
+ opacity:0.7;     
 }
