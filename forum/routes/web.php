@@ -18,8 +18,8 @@ Route::get('/', function () {
 });
 
         
-Route::get('/home', function () {
-    return view('home');
+Route::get('/accueil', function () {
+    return view('accueil');
 });
 
 
@@ -122,3 +122,7 @@ Route::get('/profile', function () {
 
 
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

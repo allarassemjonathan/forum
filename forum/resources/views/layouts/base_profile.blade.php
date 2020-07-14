@@ -40,7 +40,7 @@
       <!-- Left navbar links -->
       <ul class="navbar-nav">
       <li class="nav-item">
-        <a href="{{url('home')}}" class="nav-link">Accueil</a>
+        <a href="{{url('accueil')}}" class="nav-link">Accueil</a>
       </li>
       <li class="nav-item">
         <a href="{{url('salons')}}" class="nav-link">Salons</a>
